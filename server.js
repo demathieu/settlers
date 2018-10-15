@@ -10,7 +10,7 @@ const {Client} = require('pg');
 app.get('/listUsers', function (req, res) {
     const client = new Client({
         user: '',
-        host: '188.166.92.64',
+        
         database: 'virtualsettlers',
         password: '',
         port: 5432,
